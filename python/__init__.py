@@ -19,5 +19,6 @@ sales.payroll = HourlyPolicy(60)
 factory = employees[3]
 factory.payroll = HourlyPolicy(55)
 
+
 productivity_system.tracking(employees, 40)
 payroll_system.calculate_payroll(employees)
